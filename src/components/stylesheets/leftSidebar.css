@@ -1,0 +1,153 @@
+.header {
+  display: flex;
+  align-items:center;
+}
+.header1 {
+  display: flex;
+  align-items:center;
+  padding: 20px;
+  font-size:18px ;
+  color: white;
+}
+
+#inputStyle{
+  border-radius: 0px;
+  width: 100%;
+  background-color: #fff;
+  outline: none;
+  margin: auto;
+  padding-left: 20px;
+  padding: 10px;
+  border: 1px solid #cccccc;
+}
+
+.avatar {
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  margin: 0 8px;
+  -webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+ 
+}
+.contactscreen{
+  border-top: 3px solid white;
+}
+
+.avatar:hover{
+  
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+.header p {
+  font-size: 18px;
+  color: #fff;
+  font-family: cursive;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 20px;
+  
+}
+.contact-tab {
+  display: flex;
+  align-items: center;
+  border-bottom: solid 1px #E0E0E0;
+  padding: 3px;
+}
+.contactText {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #2f2f2f;
+  width: auto;
+}
+.contactText p {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+/*  */
+.left-sidebar-header {
+  box-shadow: 0 4px 8px 0 rgb(59 59 59 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+/* new convo tab */
+.new-convo {
+
+  color: #fff;
+  padding-top: 19px;
+  cursor: pointer;
+  font-size: 18px;
+
+}
+.l{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 10px 0;
+}
+
+.new-convo .fas {
+  cursor: pointer;
+  padding: 8px;
+}
+.new-convo-tab {
+
+  border: 1px solid #6780cC;
+  border-top: 1px solid white;
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  position: absolute;
+  top: 100px;
+  right: 350px;
+  z-index: 99;
+}
+.nct-header {
+  background-color: #6780cC;
+  color: #fff;
+  height: 55px;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  border-bottom: 2px solid white;
+}
+.nct-header p {
+  font-size: 18px;
+}
+.nct-header .fas {
+  cursor: pointer;
+}
+.nct-list {
+  height: 343px;
+  overflow: auto;
+}
+
+.contactlist{
+  overflow-y: scroll;
+  height: 85vh;
+  z-index: 2;
+  background-color: #fff;
+}
+.contactName1{
+  font-Size: '16px';
+    color: '#000';
+
+}
+@media screen and (max-width: 1200px) {
+  .new-convo-tab {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 792px) {
+  .new-convo-tab {
+    top: 100px;
+    right: 30%;
+  }
+}
+@media screen and (max-width: 520px) {
+  .new-convo-tab {
+    top: 100px;
+    right: 20%;
+  }
+}
